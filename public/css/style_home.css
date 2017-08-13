@@ -1,0 +1,50 @@
+
+
+#pokemon-tile
+{
+	margin: auto;
+}
+
+
+#pokemon-icon
+{
+	margin: 0px 10px 0px 10px;
+	color: #fff;
+	padding: 10px 0px 0px 0px;
+}
+
+#pokemon-icon span
+{
+	padding-left: 10px;
+}
+
+#pokemon-icon #pokemon-name
+{
+	color: #777;
+}
+
+#img-center
+{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+
+#pokemon-name
+{
+	text-align: center;
+}
+
+#pokemon-icon:hover
+{
+	background-color: #f8f8f8;
+	font-weight: bold;
+	color: #03C;
+}
+
+#pokemon-tile:hover #pokemon-name
+{
+	background-color: #dd4b39;
+	color: white;
+}

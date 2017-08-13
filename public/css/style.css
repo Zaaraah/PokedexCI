@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:400,400italic,500,600,700,800,900,300,200,100);
+
+
+body 
+{
+	padding-top: 80px;
+	font-family: "Exo",Arial,sans-serif;
+	color: #777;
+	height: 100%;
+
+}
+
+#page-content
+{
+	min-height:100%;
+	position:relative;
+	padding-bottom: 180px;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+a.navbar-brand
+{
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+a.nav-hover:hover
+{
+	padding-bottom: 12px;
+	border-bottom: 3px solid #dd4b39;
+}
+
+a.dropdown-toggle
+{
+	font-size: 1.15em;
+}
+
+a.dropdown-toggle:hover .glyphicon, a.dropdown-toggle:focus .glyphicon
+{
+	color: #03C;
+}
+
+a.dropdown-toggle:hover .caret, a.dropdown-toggle:focus .caret
+{
+	color: #dd4b39;
+}
+
+
+ul.dropdown-menu
+{
+	font-size: .85em;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus 
+{
+	padding-left: 16px;
+	border-left: 4px solid #03C;
+	background-color: white;
+}
+
+.dropdown-menu > li > a#logout:hover, .dropdown-menu > li > a#logout:focus 
+{
+	padding-left: 16px;
+	border-left: 4px solid #dd4b39;
+	background-color: white;
+}
+
+#title_search
+{
+	margin: 30px 40px 40px 20px;
+}
+
+#pagetitle
+{
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+#searchbar
+{
+	float: right;
+	margin-top: 15px;
+}
+
+
+
+#footer
+{
+	background-color: #777;
+	border-color: #e7e7e7;;
+	color: #e7e7e7;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer .row
+{
+	padding-top: 10px;
+}
+
+#footer-company
+{
+	font-weight: bold;
+	font-size: large;
+}
+
+#footer-links
+{
+	border-left: 2px solid #03C;
+	padding-left: 30px;
+}
+
+#footer-legals
+{
+	text-align: right;
+	text-decoration: underline;
+	font-size: small;
+}
+
+#footer a
+{
+	text-decoration: underline;
+	font-size: small;
+}
+
+#esrb
+{
+	height: 53px;
+	/*display: block;*/
+	float: right;
+	padding-left: 10px;
+}
+
+#connect
+{
+	height: 20px;
+}
+
+#footer-copyright
+{
+	text-align: right;
+
+}
+
+#footer-copyright
+{
+	padding-top: 10px;
+}
+
